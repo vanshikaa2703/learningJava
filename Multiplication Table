@@ -1,11 +1,9 @@
 public class practice{
   public static void main(String[] args){
-    public void table() {
-		  int prod = 1;
-		for(int i = 0; i<=10; i++) {
-			prod = 6*i;
-			System.out.println("6 X " + i + " = " + prod);
-		}
-	  }
+    int prod = 1;
+    for (int i = 0; i <= 10; i++) {
+	prod = 6 * i;
+	System.out.println("6 X " + i + " = " + prod);
+     }
   }
 }
