@@ -1,18 +1,16 @@
 public class practice{
   public static void main(String[] args){
     public void fibonacci() {
-		  int num1 = 0;
-		  int num2 = 1;
+		int num1 = 0;
+		int num2 = 1;
 
-		  System.out.print(num1 + " " + num2);
+		System.out.print(num1 + " " + num2);
 
-		  for (int i = 2; i <= 6; i++) {
-			  int sum = num1 + num2;
-			  System.out.print(" " + sum);
-			  num1 = num2;
-			  num2 = sum;
-		  }
-	  }
+		for (int i = 2; i <= 6; i++) {
+			int sum = num1 + num2;
+			System.out.print(" " + sum);
+			num1 = num2;
+			num2 = sum;
 	  
   }
 }
